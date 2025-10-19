@@ -1,0 +1,18 @@
+li:nth-child(odd) {background: gray;}
+li:nth-child(even){background: lightgray;}
+p::before {
+    content: "";
+}
+li:nth-child(odd) {background: gray;}
+li::before {
+    content: "==> ";
+}
+li:hover {
+    color: purple;
+    background-color: gray;
+}
+
+li::after {
+    content: "V";
+}
+
