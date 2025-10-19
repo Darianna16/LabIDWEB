@@ -1,10 +1,10 @@
 h1 {
     text-align: center;
 }
-p::first-line {
+section p::first-line {
     font-weight: bold;
 }
-p::first-letter {
+section p::first-letter {
     font-size: 3em;
     font-family: "Old English Text MT", "Goudy Old Style", serif;
     float: left;

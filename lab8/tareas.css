@@ -1,18 +1,25 @@
-li:nth-child(odd) {background: gray;}
-li:nth-child(even){background: lightgray;}
+body {
+    background-color: lightgoldenrodyellow;
+}
+section li:nth-child(odd) {background: gray;}
+section li:nth-child(even){background: lightgray;}
 p::before {
     content: "";
 }
-li:nth-child(odd) {background: gray;}
-li::before {
+section li:nth-child(odd) {background: gray;}
+section li::before {
     content: "==> ";
 }
-li:hover {
-    color: purple;
+section li:hover {
+    cursor: pointer;
     background-color: gray;
 }
 
-li::after {
-    content: "V";
+.hecha::after {
+    content: "  \\/";
+    color: greenyellow;
 }
-
+.lista {
+    text-align: center;
+    color:red;
+}

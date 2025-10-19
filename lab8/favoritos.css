@@ -1,16 +1,19 @@
-a:link { 
+body {
+    background-color: lightcyan;
+}
+section a:link { 
     color: green;
     background-color: greenyellow;
 }
-a:visited {
+section a:visited {
     color: purple;
     background-color: blueviolet;
 }
-a:hover {
+section a:hover {
     color:red;
     background-color: brown;
 }
-a:active {
+section a:active {
     color:orange;
     background-color: bisque;
 }
