@@ -1,5 +1,5 @@
 body {
-    background-color: azure;
+    background-color: lightcyan;
 }
 div > p {color:blueviolet;}
 h2 + p {color: blue;}
